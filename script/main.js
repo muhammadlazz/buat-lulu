@@ -180,14 +180,14 @@ const animationTimeline = () => {
   )
   .staggerFromTo(
       ".baloons img",
-      4, {
+      5, {
           opacity: 0.9,
           y: 1700,
       }, {
           opacity: 1,
           y: -1200,
       },
-      0.4
+      0.6
   )
   .from(
       ".profile-picture",
